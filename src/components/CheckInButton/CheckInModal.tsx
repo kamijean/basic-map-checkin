@@ -68,13 +68,13 @@ const CheckInModal = ({ isOpen, onClose }: ModalProps) => {
         <form>
           <FormWrapper>
             <input
-              type="text"
+              type="number"
               value={xValue}
               onChange={handleXChange}
               placeholder="Enter x value"
             />
             <input
-              type="text"
+              type="number"
               value={yValue}
               onChange={handleYChange}
               placeholder="Enter y value"
