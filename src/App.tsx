@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import LeafletMap from "./components/LeafletMap";
+import CheckInContainer from "./components/CheckInContainer";
 
 const App = () => {
   return (
     <div className="App">
-      <LeafletMap />
+      <CheckInContainer />
     </div>
   );
 };
