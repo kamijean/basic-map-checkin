@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
-import Button from "../common/Button";
-import { styled } from "styled-components";
+import Button from "../common/Button"
 import { LatLngExpression } from "leaflet";
 import CheckInModal from "./CheckInModal";
 
@@ -17,7 +16,6 @@ const CheckInButton = ({ handleUpdatePosition }: CheckInButtonProps) => {
   };
 
   const handleCloseModal = (position?: LatLngExpression) => {
-    console.log("clsing", position);
     setIsModalOpen(false);
     if (position) {
       handleUpdatePosition(position);

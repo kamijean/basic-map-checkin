@@ -25,7 +25,6 @@ const StyledButton = styled.button<{ buttonColor?: ButtonColorLookup }>`
 `;
 
 const Button = ({ label, onClick, buttonColor }: ButtonProps) => {
-  console.log(buttonColor);
   return (
     <StyledButton buttonColor={buttonColor} onClick={onClick}>
       {label}
